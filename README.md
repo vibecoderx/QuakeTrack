@@ -2,9 +2,24 @@
 
 An iOS app for tracking earthquakes and receiving custom push notifications, built with a serverless GCP backend.
 
+
 > ### **A Note on How This App Was Built**
 >
 > A significant portion of the code in this repository—for both the iOS app and the Python backend—was generated with the assistance of a large language model (LLM). This project was largely **"vibe-coded,"** meaning it was developed through a rapid, iterative, and conversational process with a GenAI tool with minimal review of the generated code. Correctness of the code was checked at certain core places (e.g., using the correct API endpoints, etc). Overall app correctness check was done via manual testing of various UI workflows.
+
+## Screenshots
+
+Screenshots
+<table>
+<tr>
+<td align="center"><img src=".github/screenshots/iphone11_pro_max/1.png" width="200"></td>
+<td align="center"><img src=".github/screenshots/iphone11_pro_max/2.png" width="200"></td>
+<td align="center"><img src=".github/screenshots/iphone11_pro_max/3.png" width="200"></td>
+<td align="center"><img src=".github/screenshots/iphone11_pro_max/4.png" width="200"></td>
+<td align="center"><img src=".github/screenshots/iphone11_pro_max/5.png" width="200"></td>
+<td align="center"><img src=".github/screenshots/iphone11_pro_max/6.png" width="200"></td>
+</tr>
+</table>
 
 ## License
 
