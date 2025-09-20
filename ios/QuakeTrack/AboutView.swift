@@ -27,6 +27,11 @@ struct AboutView: View {
                         Text(AppInfoHelper.versionInfo)
                             .font(.caption)
                             .foregroundColor(.secondary)
+                        
+                        // NEW: Display the Git Commit SHA
+                        Text("Commit: \(AppInfoHelper.gitCommitSHA)")
+                            .font(.caption2)
+                            .foregroundColor(.secondary)
                     }
                     .frame(maxWidth: .infinity)
                     .padding(.vertical)
@@ -57,3 +62,4 @@ struct AboutView_Previews: PreviewProvider {
         AboutView()
     }
 }
+

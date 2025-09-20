@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>GitCommitSHA</key>
+	<string></string>
 	<key>UpdateUserPreferencesUrl</key>
 	<string>$(UPDATE_USER_PREFERENCES_URL)</string>
 	<key>GetUnreadAlertsURL</key>
