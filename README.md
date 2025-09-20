@@ -6,6 +6,10 @@ An iOS app for tracking earthquakes and receiving custom push notifications, bui
 >
 > A significant portion of the code in this repository—for both the iOS app and the Python backend—was generated with the assistance of a large language model (LLM). This project was largely **"vibe-coded,"** meaning it was developed through a rapid, iterative, and conversational process with a GenAI tool with minimal review of the generated code. Correctness of the code was checked at certain core places (e.g., using the correct API endpoints, etc). Overall app correctness check was done via manual testing of various UI workflows.
 
+## License
+
+MIT license (see `LICENSE` file at the root of the repo)
+
 ## Purpose of the App
 
 QuakeTrack is a mobile application with two primary functions:
