@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UpdateUserPreferencesUrl</key>
+	<string>$(UPDATE_USER_PREFERENCES_URL)</string>
+	<key>GetUnreadAlertsURL</key>
+	<string>$(GET_UNREAD_ALERTS_URL)</string>
+	<key>ClearUserAlertsURL</key>
+	<string>$(CLEAR_USER_ALERTS_URL)</string>
+	<key>APIKey</key>
+	<string>$(API_KEY)</string>
+	<key>GeoNamesUsername</key>
+	<string>$(GEONAMES_USERNAME)</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>api.geonames.org</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
+</dict>
+</plist>
