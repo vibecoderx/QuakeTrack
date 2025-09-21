@@ -7,11 +7,6 @@ src="ios/QuakeTrack/Assets.xcassets/AppIcon.appiconset/QuakeTrack_seismic.png" w
 
 An iOS app for tracking earthquakes and receiving custom push notifications, built with a serverless GCP backend.
 
-
-> ### **A Note on How This App Was Built**
->
-> A significant portion of the code in this repository—for both the iOS app and the Python backend—was generated with the assistance of a large language model (LLM). This project was largely **"vibe-coded,"** meaning it was developed through a rapid, iterative, and conversational process with a GenAI tool with minimal review of the generated code. Correctness of the code was checked at certain core places (e.g., using the correct API endpoints, etc). Overall app correctness check was done via manual testing of various UI workflows.
-
 ## Screenshots
 
 <table>
@@ -121,4 +116,8 @@ The backend is built entirely on the GCP/Firebase free tier and is responsible f
 
 * **Firebase Cloud Messaging (FCM)**: This is the critical bridge for sending push notifications. Instead of communicating directly with Apple's complex APNs, our backend makes a simple API call to FCM. FCM then handles the secure and reliable delivery of the notification to the correct device, whether it's an iPhone or an Android device.
 
+
+> ### **A Note on How This App Was Built**
+>
+> A significant portion of the code in this repository—for both the iOS app and the Python backend—was generated with the assistance of a large language model (LLM). This project was largely **"vibe-coded,"** meaning it was developed through a rapid, iterative, and conversational process with a GenAI tool with minimal review of the generated code. Correctness of the code was checked at certain core places (e.g., using the correct API endpoints, etc). Overall app correctness check was done via manual testing of various UI workflows.
 
