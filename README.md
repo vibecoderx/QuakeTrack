@@ -1,4 +1,9 @@
-# QuakeTrack 
+# QuakeTrack — Track Earthquakes Across The Globe!
+
+ <p align="center">
+  <img
+src="ios/QuakeTrack/Assets.xcassets/AppIcon.appiconset/QuakeTrack_seismic.png" width="200">
+</p>
 
 An iOS app for tracking earthquakes and receiving custom push notifications, built with a serverless GCP backend.
 
