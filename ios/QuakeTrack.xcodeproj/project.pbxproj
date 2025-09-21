@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9376CA232E79F6CA001B1985 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 9376CA222E79F6CA001B1985 /* FirebaseMessaging */; };
+		9376CA252E79F705001B1985 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9376CA242E79F705001B1985 /* GoogleService-Info.plist */; };
+		93EE75362E63B8EF0004FD04 /* Secrets.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 93EE75352E63B8EF0004FD04 /* Secrets.xcconfig */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9390CBE22E56928900CBFD35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9390CBCC2E56928700CBFD35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9390CBD32E56928700CBFD35;
+			remoteInfo = QuakeTrack;
+		};
+		9390CBEC2E56928900CBFD35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9390CBCC2E56928700CBFD35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9390CBD32E56928700CBFD35;
+			remoteInfo = QuakeTrack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9376CA242E79F705001B1985 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9390CBD42E56928700CBFD35 /* QuakeTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuakeTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9390CBE12E56928900CBFD35 /* QuakeTrackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuakeTrackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9390CBEB2E56928900CBFD35 /* QuakeTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuakeTrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93EE75352E63B8EF0004FD04 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		93EE75382E63BC5A0004FD04 /* Exceptions for "QuakeTrack" folder in "QuakeTrack" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 9390CBD32E56928700CBFD35 /* QuakeTrack */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9390CBD62E56928700CBFD35 /* QuakeTrack */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				93EE75382E63BC5A0004FD04 /* Exceptions for "QuakeTrack" folder in "QuakeTrack" target */,
+			);
+			path = QuakeTrack;
+			sourceTree = "<group>";
+		};
+		9390CBE42E56928900CBFD35 /* QuakeTrackTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = QuakeTrackTests;
+			sourceTree = "<group>";
+		};
+		9390CBEE2E56928900CBFD35 /* QuakeTrackUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = QuakeTrackUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9390CBD12E56928700CBFD35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9376CA232E79F6CA001B1985 /* FirebaseMessaging in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9390CBDE2E56928900CBFD35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9390CBE82E56928900CBFD35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9390CBCB2E56928700CBFD35 = {
+			isa = PBXGroup;
+			children = (
+				9376CA242E79F705001B1985 /* GoogleService-Info.plist */,
+				93EE75352E63B8EF0004FD04 /* Secrets.xcconfig */,
+				9390CBD62E56928700CBFD35 /* QuakeTrack */,
+				9390CBE42E56928900CBFD35 /* QuakeTrackTests */,
+				9390CBEE2E56928900CBFD35 /* QuakeTrackUITests */,
+				9390CBD52E56928700CBFD35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9390CBD52E56928700CBFD35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9390CBD42E56928700CBFD35 /* QuakeTrack.app */,
+				9390CBE12E56928900CBFD35 /* QuakeTrackTests.xctest */,
+				9390CBEB2E56928900CBFD35 /* QuakeTrackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9390CBD32E56928700CBFD35 /* QuakeTrack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9390CBF52E56928900CBFD35 /* Build configuration list for PBXNativeTarget "QuakeTrack" */;
+			buildPhases = (
+				9390CBD02E56928700CBFD35 /* Sources */,
+				9390CBD12E56928700CBFD35 /* Frameworks */,
+				9390CBD22E56928700CBFD35 /* Resources */,
+				93EE753D2E63C1B40004FD04 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				9390CBD62E56928700CBFD35 /* QuakeTrack */,
+			);
+			name = QuakeTrack;
+			packageProductDependencies = (
+				9376CA222E79F6CA001B1985 /* FirebaseMessaging */,
+			);
+			productName = QuakeTrack;
+			productReference = 9390CBD42E56928700CBFD35 /* QuakeTrack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9390CBE02E56928900CBFD35 /* QuakeTrackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9390CBF82E56928900CBFD35 /* Build configuration list for PBXNativeTarget "QuakeTrackTests" */;
+			buildPhases = (
+				9390CBDD2E56928900CBFD35 /* Sources */,
+				9390CBDE2E56928900CBFD35 /* Frameworks */,
+				9390CBDF2E56928900CBFD35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9390CBE32E56928900CBFD35 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9390CBE42E56928900CBFD35 /* QuakeTrackTests */,
+			);
+			name = QuakeTrackTests;
+			packageProductDependencies = (
+			);
+			productName = QuakeTrackTests;
+			productReference = 9390CBE12E56928900CBFD35 /* QuakeTrackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9390CBEA2E56928900CBFD35 /* QuakeTrackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9390CBFB2E56928900CBFD35 /* Build configuration list for PBXNativeTarget "QuakeTrackUITests" */;
+			buildPhases = (
+				9390CBE72E56928900CBFD35 /* Sources */,
+				9390CBE82E56928900CBFD35 /* Frameworks */,
+				9390CBE92E56928900CBFD35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9390CBED2E56928900CBFD35 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9390CBEE2E56928900CBFD35 /* QuakeTrackUITests */,
+			);
+			name = QuakeTrackUITests;
+			packageProductDependencies = (
+			);
+			productName = QuakeTrackUITests;
+			productReference = 9390CBEB2E56928900CBFD35 /* QuakeTrackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9390CBCC2E56928700CBFD35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					9390CBD32E56928700CBFD35 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					9390CBE02E56928900CBFD35 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 9390CBD32E56928700CBFD35;
+					};
+					9390CBEA2E56928900CBFD35 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 9390CBD32E56928700CBFD35;
+					};
+				};
+			};
+			buildConfigurationList = 9390CBCF2E56928700CBFD35 /* Build configuration list for PBXProject "QuakeTrack" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9390CBCB2E56928700CBFD35;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				9376CA212E79F6CA001B1985 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9390CBD52E56928700CBFD35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9390CBD32E56928700CBFD35 /* QuakeTrack */,
+				9390CBE02E56928900CBFD35 /* QuakeTrackTests */,
+				9390CBEA2E56928900CBFD35 /* QuakeTrackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9390CBD22E56928700CBFD35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9376CA252E79F705001B1985 /* GoogleService-Info.plist in Resources */,
+				93EE75362E63B8EF0004FD04 /* Secrets.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9390CBDF2E56928900CBFD35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9390CBE92E56928900CBFD35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		93EE753D2E63C1B40004FD04 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "# Exit immediately if a command exits with a non-zero status.\nset -e\n\necho \"--- Running Build Info Script ---\"\n\n# --- Set Info.plist Path ---\nINFO_PLIST_PATH=\"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}\"\n\n# --- 1. Build Number (App Store Compliant) ---\n# Get the total number of commits for the build number.\nBUILD_NUMBER=$(git rev-list --count HEAD)\necho \"Build number (commit count): $BUILD_NUMBER\"\n# Update the CFBundleVersion with the new integer build number.\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $BUILD_NUMBER\" \"$INFO_PLIST_PATH\" || \\\n/usr/libexec/PlistBuddy -c \"Add :CFBundleVersion string $BUILD_NUMBER\" \"$INFO_PLIST_PATH\"\n\n# --- 2. Git Commit SHA (for debugging) ---\n# Get the short git commit hash.\nGIT_SHA=$(git rev-parse --short HEAD)\necho \"Git commit SHA: $GIT_SHA\"\n# Update the GitCommitSHA with the new string value.\n/usr/libexec/PlistBuddy -c \"Set :GitCommitSHA $GIT_SHA\" \"$INFO_PLIST_PATH\" || \\\n/usr/libexec/PlistBuddy -c \"Add :GitCommitSHA string $GIT_SHA\" \"$INFO_PLIST_PATH\"\n\necho \"--- Script finished successfully ---\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9390CBD02E56928700CBFD35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9390CBDD2E56928900CBFD35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9390CBE72E56928900CBFD35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9390CBE32E56928900CBFD35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9390CBD32E56928700CBFD35 /* QuakeTrack */;
+			targetProxy = 9390CBE22E56928900CBFD35 /* PBXContainerItemProxy */;
+		};
+		9390CBED2E56928900CBFD35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9390CBD32E56928700CBFD35 /* QuakeTrack */;
+			targetProxy = 9390CBEC2E56928900CBFD35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9390CBF32E56928900CBFD35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93EE75352E63B8EF0004FD04 /* Secrets.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9390CBF42E56928900CBFD35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93EE75352E63B8EF0004FD04 /* Secrets.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9390CBF62E56928900CBFD35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93EE75352E63B8EF0004FD04 /* Secrets.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = QuakeTrack/QuakeTrack.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8Z43RA3M4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuakeTrack/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = QuakeTrack;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.16;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vibecodingx.QuakeTrack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9390CBF72E56928900CBFD35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93EE75352E63B8EF0004FD04 /* Secrets.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = QuakeTrack/QuakeTrack.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8Z43RA3M4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuakeTrack/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = QuakeTrack;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.16;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vibecodingx.QuakeTrack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9390CBF92E56928900CBFD35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.QuakeTrackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuakeTrack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuakeTrack";
+			};
+			name = Debug;
+		};
+		9390CBFA2E56928900CBFD35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.QuakeTrackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuakeTrack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuakeTrack";
+			};
+			name = Release;
+		};
+		9390CBFC2E56928900CBFD35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.QuakeTrackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuakeTrack;
+			};
+			name = Debug;
+		};
+		9390CBFD2E56928900CBFD35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.QuakeTrackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuakeTrack;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9390CBCF2E56928700CBFD35 /* Build configuration list for PBXProject "QuakeTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9390CBF32E56928900CBFD35 /* Debug */,
+				9390CBF42E56928900CBFD35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9390CBF52E56928900CBFD35 /* Build configuration list for PBXNativeTarget "QuakeTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9390CBF62E56928900CBFD35 /* Debug */,
+				9390CBF72E56928900CBFD35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9390CBF82E56928900CBFD35 /* Build configuration list for PBXNativeTarget "QuakeTrackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9390CBF92E56928900CBFD35 /* Debug */,
+				9390CBFA2E56928900CBFD35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9390CBFB2E56928900CBFD35 /* Build configuration list for PBXNativeTarget "QuakeTrackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9390CBFC2E56928900CBFD35 /* Debug */,
+				9390CBFD2E56928900CBFD35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9376CA212E79F6CA001B1985 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9376CA222E79F6CA001B1985 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9376CA212E79F6CA001B1985 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9390CBCC2E56928700CBFD35 /* Project object */;
+}

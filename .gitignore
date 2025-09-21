@@ -6,14 +6,12 @@ Secrets.xcconfig
 # Standard Swift ignores
 .build/
 Packages/
-*.xcodeproj
-xcuserdata/
+swiftpm/
 
 # Xcode project files
-*.xcworkspace
-project.xcworkspace
 xcuserdata/
 *.xccheckout
+project.xcworkspace
 
 # Build folder
 build/
