@@ -9,54 +9,53 @@ An iOS app for tracking earthquakes and receiving custom push notifications, bui
 
 ## Screenshots
 
-Screenshots
 <table>
 
 <tr>
-<td align="center">Search for earthquakes on a specific date!</td>
+<td align="center"><b>Search for earthquakes on a specific date!</b></td>
 </tr>
 <tr>
-<td align="center"><img src=".github/screenshots/iphone11_pro_max/1.png" width="500"></td>
-</tr>
-<tr><td></td></tr>
-
-<tr>
-<td align="center">See key earthquake details in the results</td>
-</tr>
-<tr>
-<td align="center"><img src=".github/screenshots/iphone11_pro_max/2.png" width="500"></td>
+<td align="center"><img src=".github/screenshots/iphone11_pro_max/1.png" width="300"></td>
 </tr>
 <tr><td></td></tr>
 
 <tr>
-<td align="center">See more earthquake information in the detailed view</td>
+<td align="center"><b>See key earthquake details in the results</b></td>
 </tr>
 <tr>
-<td align="center"><img src=".github/screenshots/iphone11_pro_max/3.png" width="500"></td>
-</tr>
-<tr><td></td></tr>
-
-<tr>
-<td align="center">Along with a link to the earthquake's homepage on USGS.gov</td>
-</tr>
-<tr>
-<td align="center"><img src=".github/screenshots/iphone11_pro_max/4.png" width="500"></td>
+<td align="center"><img src=".github/screenshots/iphone11_pro_max/2.png" width="300"></td>
 </tr>
 <tr><td></td></tr>
 
 <tr>
-<td align="center">Set earthquake alerts across the globe with desired thresholds</td>
+<td align="center"><b>See more earthquake information in the detailed view</b></td>
 </tr>
 <tr>
-<td align="center"><img src=".github/screenshots/iphone11_pro_max/6.png" width="500"></td>
+<td align="center"><img src=".github/screenshots/iphone11_pro_max/3.png" width="300"></td>
 </tr>
 <tr><td></td></tr>
 
 <tr>
-<td align="center">Global city autocomplete helps you setup an alert quickly!</td>
+<td align="center"><b>Along with a link to the earthquake's homepage on USGS.gov</b></td>
 </tr>
 <tr>
-<td align="center"><img src=".github/screenshots/iphone11_pro_max/5.png" width="500"></td>
+<td align="center"><img src=".github/screenshots/iphone11_pro_max/4.png" width="300"></td>
+</tr>
+<tr><td></td></tr>
+
+<tr>
+<td align="center"><b>Set earthquake alerts across the globe with desired thresholds</b></td>
+</tr>
+<tr>
+<td align="center"><img src=".github/screenshots/iphone11_pro_max/6.png" width="300"></td>
+</tr>
+<tr><td></td></tr>
+
+<tr>
+<td align="center"><b>Global city autocomplete helps you setup an alert quickly!</b></td>
+</tr>
+<tr>
+<td align="center"><img src=".github/screenshots/iphone11_pro_max/5.png" width="300"></td>
 </tr>
 <tr><td></td></tr>
 
