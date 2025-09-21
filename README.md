@@ -10,55 +10,36 @@ An iOS app for tracking earthquakes and receiving custom push notifications, bui
 ## Screenshots
 
 <table>
-
-<tr>
-<td align="center"><b>Search for earthquakes on a specific date!</b></td>
-</tr>
-<tr>
-<td align="center"><img src=".github/screenshots/iphone11_pro_max/1.png" width="250"></td>
-</tr>
-<tr><td></td></tr>
-
-<tr>
-<td align="center"><b>See key earthquake details in the results</b></td>
-</tr>
-<tr>
-<td align="center"><img src=".github/screenshots/iphone11_pro_max/2.png" width="250"></td>
-</tr>
-<tr><td></td></tr>
-
-<tr>
-<td align="center"><b>See more earthquake information in the detailed view</b></td>
-</tr
-<tr>
-<td align="center"><img src=".github/screenshots/iphone11_pro_max/3.png" width="250"></td>
-</tr>
-<tr><td></td></tr>
-
-<tr>
-<td align="center"><b>Along with a link to the earthquake's homepage on USGS.gov</b></td>
-</tr>
-<tr>
-<td align="center"><img src=".github/screenshots/iphone11_pro_max/4.png" width="250"></td>
-</tr>
-<tr><td></td></tr>
-
-<tr>
-<td align="center"><b>Set earthquake alerts across the globe with desired thresholds</b></td>
-</tr>
-<tr>
-<td align="center"><img src=".github/screenshots/iphone11_pro_max/6.png" width="250"></td>
-</tr>
-<tr><td></td></tr>
-
-<tr>
-<td align="center"><b>Global city autocomplete helps you setup an alert quickly!</b></td>
-</tr>
-<tr>
-<td align="center"><img src=".github/screenshots/iphone11_pro_max/5.png" width="250"></td>
-</tr>
-<tr><td></td></tr>
-
+  <tr>
+    <td width="50%" align="center">
+      <b>Search earthquakes on any date!</b><br>
+      <img src=".github/screenshots/iphone11_pro_max/1.png" width="250">
+    </td>
+    <td width="50%" align="center">
+      <b>See key details in the results</b><br>
+      <img src=".github/screenshots/iphone11_pro_max/2.png" width="250">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <b>View in-depth information</b><br>
+      <img src=".github/screenshots/iphone11_pro_max/3.png" width="250">
+    </td>
+    <td width="50%" align="center">
+      <b>Link directly to the USGS page</b><br>
+      <img src=".github/screenshots/iphone11_pro_max/4.png" width="250">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <b>Set global alerts with custom thresholds</b><br>
+      <img src=".github/screenshots/iphone11_pro_max/6.png" width="250">
+    </td>
+    <td width="50%" align="center">
+      <b>Autocomplete helps you find cities fast!</b><br>
+      <img src=".github/screenshots/iphone11_pro_max/5.png" width="250">
+    </td>
+  </tr>
 </table>
 
 ## License
