@@ -11,14 +11,55 @@ An iOS app for tracking earthquakes and receiving custom push notifications, bui
 
 Screenshots
 <table>
+
 <tr>
-<td align="center"><img src=".github/screenshots/iphone11_pro_max/1.png" width="200"></td>
-<td align="center"><img src=".github/screenshots/iphone11_pro_max/2.png" width="200"></td>
-<td align="center"><img src=".github/screenshots/iphone11_pro_max/3.png" width="200"></td>
-<td align="center"><img src=".github/screenshots/iphone11_pro_max/4.png" width="200"></td>
-<td align="center"><img src=".github/screenshots/iphone11_pro_max/5.png" width="200"></td>
-<td align="center"><img src=".github/screenshots/iphone11_pro_max/6.png" width="200"></td>
+<td align="center">Search for earthquakes on a specific date!</td>
 </tr>
+<tr>
+<td align="center"><img src=".github/screenshots/iphone11_pro_max/1.png" width="500"></td>
+</tr>
+<tr><td></td></tr>
+
+<tr>
+<td align="center">See key earthquake details in the results</td>
+</tr>
+<tr>
+<td align="center"><img src=".github/screenshots/iphone11_pro_max/2.png" width="500"></td>
+</tr>
+<tr><td></td></tr>
+
+<tr>
+<td align="center">See more earthquake information in the detailed view</td>
+</tr>
+<tr>
+<td align="center"><img src=".github/screenshots/iphone11_pro_max/3.png" width="500"></td>
+</tr>
+<tr><td></td></tr>
+
+<tr>
+<td align="center">Along with a link to the earthquake's homepage on USGS.gov</td>
+</tr>
+<tr>
+<td align="center"><img src=".github/screenshots/iphone11_pro_max/4.png" width="500"></td>
+</tr>
+<tr><td></td></tr>
+
+<tr>
+<td align="center">Set earthquake alerts across the globe with desired thresholds</td>
+</tr>
+<tr>
+<td align="center"><img src=".github/screenshots/iphone11_pro_max/6.png" width="500"></td>
+</tr>
+<tr><td></td></tr>
+
+<tr>
+<td align="center">Global city autocomplete helps you setup an alert quickly!</td>
+</tr>
+<tr>
+<td align="center"><img src=".github/screenshots/iphone11_pro_max/5.png" width="500"></td>
+</tr>
+<tr><td></td></tr>
+
 </table>
 
 ## License
