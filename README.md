@@ -1,7 +1,8 @@
 # QuakeTrack — Track Earthquakes Across The Globe!
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vibecoderx/QuakeTrack/main/ios/Censusly/Assets.xcassets/AppIcon.appiconset/QuakeTrack_seismic.png" width="200">
+  <img
+src="https://raw.githubusercontent.com/vibecoderx/QuakeTrack/main/ios/QuakeTrack/Assets.xcassets/AppIcon.appiconset/QuakeTrack_seismic.png" width="200">
 </p>
 
 <p align="center">
