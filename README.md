@@ -1,11 +1,20 @@
 # QuakeTrack — Track Earthquakes Across The Globe!
 
- <p align="center">
-  <img
-src="ios/QuakeTrack/Assets.xcassets/AppIcon.appiconset/QuakeTrack_seismic.png" width="200">
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vibecoderx/QuakeTrack/main/ios/Censusly/Assets.xcassets/AppIcon.appiconset/QuakeTrack_seismic.png" width="200">
 </p>
 
-An iOS app for tracking earthquakes and receiving custom push notifications, built with a serverless GCP backend.
+<p align="center">
+  <strong>Your personal seismic station, monitoring the world beneath your feet!</strong>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/platform-iOS-blue.svg" alt="Platform: iOS">
+  <img src="https://img.shields.io/badge/Swift-5-orange.svg" alt="Swift 5">
+  <img src="https://img.shields.io/badge/SwiftUI-latest-purple.svg" alt="SwiftUI">
+</p>
+
+---
 
 ## Screenshots
 
