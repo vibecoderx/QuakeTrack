@@ -6,7 +6,9 @@ src="https://raw.githubusercontent.com/vibecoderx/QuakeTrack/main/ios/QuakeTrack
 </p>
 
 <p align="center">
-  <strong>Your personal seismic station, monitoring the world beneath your feet!</strong>
+  <strong>Your personal seismic station, monitoring the world beneath your
+feet! Download iOS app 
+<a href="https://apps.apple.com/us/app/quaketrack/id6752812787">here.</strong>
 </p>
 
 <p align="center">
